@@ -29,3 +29,37 @@
   width: 12px;
   height: 14px;
 }
+
+.main-content .text-content .design-box:first-child {
+  padding-top: 48px;
+}
+
+.main-content .text-content .design-box {
+  padding-top: 24px;
+}
+
+.main-content .text-content .design-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  line-height: normal;
+}
+
+.main-content .text-content .design-box p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #303032;
+  padding-top: 18px;
+}
+
+.main-content .text-content .design-box .line {
+  margin-top: 24px;
+  height: 1px;
+  background-color: rgba(48, 48, 50, 0.12);
+}
+
+.main-content .text-content .design-box .line .active-line {
+  height: 100%;
+  width: 170px;
+  background-color: #303032;
+}
