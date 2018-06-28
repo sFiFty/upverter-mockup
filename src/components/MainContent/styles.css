@@ -7,18 +7,25 @@
   color: #141416;
   width: 370px;
   margin: 0 auto;
+  font-family: Gotham;
 }
 
 .main-content .text-content h1 {
   font-family: Futura;
-  line-height: 49px;
+  line-height: 54px;
   font-size: 48px;
+  margin: 0;
+  font-weight: bold;
 }
 
 .main-content .text-content .subhead {
-  font-family: Gotham;
   line-height: 33px;
   font-size: 20px;
   color: #303032;
   padding-top: 24px;
+}
+
+.main-content .text-content .ico {
+  width: 12px;
+  height: 14px;
 }

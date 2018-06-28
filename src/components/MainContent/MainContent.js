@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import './styles.css';
+import iconReplay from '../../images/icon-replay.svg';
 
 class MainContent extends Component {
   render() {
@@ -10,13 +12,16 @@ class MainContent extends Component {
           <div className="subhead">
             Upverter Viewer makes it easy to share views of your design.
           </div>
-        </div>
-        <div className="design-box">
-          <h3>Share Your Design</h3>
-          <p>
-            Share your design via URL or embedded code. 
-            Your recipients won't need to install software or sign in to view it.
-          </p>
+          <div className="design-box">
+            <div className="d-flex justify-content-between align-items-center">
+              <h3>Share Your Design</h3>
+              <img src={iconReplay} alt="ico ico-replay"/>
+            </div>
+            <p>
+              Share your design via URL or embedded code. 
+              Your recipients won't need to install software or sign in to view it.
+            </p>
+          </div>
         </div>
       </div>
     );
