@@ -8,3 +8,13 @@ header img {
   width: 140.5px;
   height: 64px;
 }
+
+header .buttons-container button {
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+header .buttons-container button:last-child {
+  margin-left: 8px;
+}

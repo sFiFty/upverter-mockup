@@ -7,7 +7,10 @@ class Header extends Component {
     return (
       <header className="d-flex align-items-center justify-content-between">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1>
+        <div className="buttons-container">
+          <button className="button">Login</button>
+          <button className="button">Start for Free</button>
+        </div>
       </header>
     );
   }
