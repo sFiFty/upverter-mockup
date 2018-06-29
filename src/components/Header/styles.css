@@ -18,6 +18,8 @@ header .buttons-container button {
   color: #141416;
   line-height: normal;
   cursor: pointer;
+  /* the reason for that is a weird padding in gotham font */
+  padding: 28px 18px 18px; 
 }
 
 header .buttons-container button:last-child {
@@ -29,6 +31,15 @@ header .buttons-container button.login {
   border: 1px solid #F2C94C;
 }
 
+header .buttons-container button.login:hover {
+  background-color: #F2C94C;
+}
+
 header .buttons-container button.start-for-free {
   background-color: #F2C94C;
 }
+
+header .buttons-container button.start-for-free:hover {
+  background-color: #f2d74c;
+}
+

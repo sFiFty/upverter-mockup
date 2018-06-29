@@ -10,8 +10,8 @@
 @font-face {
   font-family: Gotham;
   src: url('./fonts/GothamBook/GothamBook.eot');
-  src: url('./fonts/GothamBook/GothamBook.woff') format('woff');
   src: url('./fonts/GothamBook/GothamBook.ttf') format('truetype');
+  src: url('./fonts/GothamBook/GothamBook.woff') format('woff');
 }
 
 @font-face {
