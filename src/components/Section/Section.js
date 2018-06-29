@@ -8,8 +8,8 @@ class Section extends Component {
   render() {
     return (
       <section className="d-flex">
-        <MainContent />
-        <SideContent />
+        <MainContent {...this.props} />
+        <SideContent {...this.props} />
       </section>
     );
   }

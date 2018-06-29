@@ -1,6 +1,7 @@
 .main-content {
   width: 60%;
   background: #F2C94C;
+  position: relative;
 }
 
 .main-content .text-content {
@@ -8,6 +9,10 @@
   width: 370px;
   margin: 0 auto;
   font-family: Gotham;
+}
+
+.main-content .text-content.modal-shown {
+  width: 570px;
 }
 
 .main-content .text-content h1 {
@@ -28,6 +33,12 @@
 .main-content .text-content .ico {
   width: 12px;
   height: 14px;
+}
+
+.main-content .text-content .ico-scroll {
+  margin-top: 20px;
+  width: 48px;
+  height: 48px;
 }
 
 .main-content .text-content .design-box:first-child {
@@ -62,4 +73,13 @@
   height: 100%;
   width: 170px;
   background-color: #303032;
+}
+
+.main-content .overlay {
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
 }

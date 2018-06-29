@@ -22,8 +22,8 @@ header .buttons-container button {
   padding: 28px 18px 18px; 
 }
 
-header .buttons-container button:last-child {
-  margin-left: 8px;
+header .buttons-container button:first-child {
+  margin-right: 8px;
 }
 
 header .buttons-container button.login {
