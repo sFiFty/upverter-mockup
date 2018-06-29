@@ -10,11 +10,25 @@ header img {
 }
 
 header .buttons-container button {
-  height: 48px;
   box-sizing: border-box;
   border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Gotham;
+  color: #141416;
+  line-height: normal;
+  cursor: pointer;
 }
 
 header .buttons-container button:last-child {
   margin-left: 8px;
+}
+
+header .buttons-container button.login {
+  background-color: rgba(242, 201, 76, 0.04);
+  border: 1px solid #F2C94C;
+}
+
+header .buttons-container button.start-for-free {
+  background-color: #F2C94C;
 }
