@@ -64,7 +64,8 @@
 }
 
 .side-content .login-container .login-content .actions-container {
-  width: 425px;
+  max-width: 425px;
+  width: auto;
   padding-top: 44px;
 }
 
@@ -139,4 +140,52 @@
   top: 48px;
   right: 48px;
   cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .side-content {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .side-content .image-container {
+    flex: 1;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .side-content .image-container img {
+    width: 100%;
+    top: -20%;
+    left: -20px;
+    right: 0;
+    margin: 0 auto;
+    height: initial;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 18px 5px 10px;
+  }
+  .side-content.login {
+    position: fixed;
+    top: 80px;
+    height: 100%;
+  }
+  .side-content.login .login-container .ico-close {
+    top: 10px;
+    right: 10px;
+  }
+
+  .side-content.login .login-container {
+    flex: inherit;
+  }
+
+  .side-content.login .login-container .login-content {
+    margin-top: 50px;
+  }
+
+  .side-content .login-container .login-content .actions-container {
+    padding: 50px;
+  }
 }

@@ -17,6 +17,12 @@ class MainContent extends Component {
           <div className="overlay" />
         }
         <div className={mainClasses}>
+          {
+            isModalShown &&
+            <h2>
+              Introduce Upverter Viewer
+            </h2>
+          }
           <h1>
             {
               isModalShown ? 
