@@ -4,6 +4,9 @@ import browser from '../../images/browser.png';
 import iconClose from '../../images/button-close.svg';
 import iconMan from '../../images/icon-man.svg';
 import iconEye from '../../images/icon-eye.svg';
+import iconFb from '../../images/icon-fb.svg';
+import iconTw from '../../images/icon-tw.svg';
+import iconGithub from '../../images/icon-github.svg';
 
 class SideContent extends Component {
   state = {
@@ -40,6 +43,24 @@ class SideContent extends Component {
                 <div className="input-password-container">
                   <input type={isPasswordShown ? 'text': 'password'} placeholder="Password" name="password" id="password"/>
                   <img onClick={ isPasswordShown ? this.hidePassword : this.showPassword} src={iconEye} className="icon-eye" alt="show password" />
+                </div>
+                <button className="orange">Login</button>
+              </div>
+              <div className="remind-me">
+                Forgot your username or password? <span>Remind Me</span>
+              </div>
+              <div className="or">
+                Or
+              </div>
+              <div className="social d-flex justify-content-center">
+                <div className="social-ico-container ico-fb-container">
+                  <img src={iconFb} className="ico ico-fb" alt="facebook" />
+                </div>
+                <div className="social-ico-container ico-tw-container">
+                  <img src={iconTw} className="ico ico-tw" alt="twitter" />
+                </div>
+                <div className="social-ico-container ico-github-container">
+                  <img src={iconGithub} className="ico ico-github" alt="github" />
                 </div>
               </div>
             </div>

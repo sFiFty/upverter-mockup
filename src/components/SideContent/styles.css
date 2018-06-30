@@ -22,6 +22,7 @@
 .side-content .login-container {
   position: relative;
   flex: 1;
+  font-family: Gotham;
 }
 
 .side-content .login-container .login-content .icon-man {
@@ -31,7 +32,6 @@
 
 .side-content .login-container .login-content .login-text {
   width: 250px;
-  font-family: Gotham;
   line-height: 28px;
   font-size: 20px;
   text-align: center;
@@ -68,6 +68,57 @@
   font-size: 14px;
   line-height: 16px;
   padding-left: 24px;
+}
+
+.side-content .login-container .login-content .actions-container button {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.side-content .login-container .login-content .remind-me {
+  margin-top: 24px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #141416;
+}
+
+.side-content .login-container .login-content .remind-me span {
+  color: #F2C94C;
+}
+
+.side-content .login-container .login-content .or {
+  font-size: 14px;
+  text-align: center;
+  color: #8E8E93;
+  margin-top: 48px;
+}
+
+.side-content .login-container .login-content .social {
+  margin-top: 24px;
+}
+
+.side-content .login-container .login-content .social .social-ico-container {
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.side-content .login-container .login-content .social .ico-fb-container {
+  background-color: #3B5998;
+}
+
+.side-content .login-container .login-content .social .ico-tw-container {
+  background-color: #1DA1F2;
+}
+
+.side-content .login-container .login-content .social .ico-github-container {
+  background-color: #181717;
 }
 
 .side-content .login-container .ico-close {
