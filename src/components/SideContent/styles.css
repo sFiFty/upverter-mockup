@@ -3,6 +3,10 @@
   background: #222224;
 }
 
+.side-content.login {
+  background: #F8F8F8;
+}
+
 .side-content .image-container {
   position: relative;
   height: 80%;
@@ -13,4 +17,63 @@
   top: 0;
   height: 100%;
   left: -20%;
+}
+
+.side-content .login-container {
+  position: relative;
+  flex: 1;
+}
+
+.side-content .login-container .login-content .icon-man {
+  width: 96px;
+  height: 96px;
+}
+
+.side-content .login-container .login-content .login-text {
+  width: 250px;
+  font-family: Gotham;
+  line-height: 28px;
+  font-size: 20px;
+  text-align: center;
+  color: #141416;
+  padding-top: 24px;
+}
+
+.side-content .login-container .login-content .actions-container .input-password-container {
+  position: relative;
+}
+
+.side-content .login-container .login-content .actions-container .input-password-container .icon-eye {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 19px;
+  right: 19px;
+}
+
+.side-content .login-container .login-content .actions-container {
+  width: 425px;
+  padding-top: 44px;
+}
+
+.side-content .login-container .login-content .actions-container input {
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 24px;
+}
+
+.side-content .login-container .ico-close {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 48px;
+  right: 48px;
+  cursor: pointer;
 }
