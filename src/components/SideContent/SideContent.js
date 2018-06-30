@@ -6,9 +6,15 @@ import iconMan from '../../images/icon-man.svg';
 import iconEye from '../../images/icon-eye.svg';
 
 class SideContent extends Component {
+  state = {
+    isPasswordShown: false,
+  }
+  showPassword = () => this.setState({ isPasswordShown: true });
+  hidePassword = () => this.setState({ isPasswordShown: false });
   render() {
     //const { isModalShown } = this.props;
     const { onHideModal } = this.props;
+    const { isPasswordShown } = this.state;
     const isModalShown = true;
     let sideClasses = 'side-content d-flex flex-column justify-content-center';
     if (isModalShown) sideClasses += ' login';
@@ -32,10 +38,9 @@ class SideContent extends Component {
               <div className="actions-container">
                 <input type="text" placeholder="Username" name="username" id="username"/>
                 <div className="input-password-container">
-                  <input type="password" placeholder="Password" name="password" id="password"/>
-                  <img src={iconEye} className="icon-eye" alt="show password" />
+                  <input type={isPasswordShown ? 'text': 'password'} placeholder="Password" name="password" id="password"/>
+                  <img onClick={ isPasswordShown ? this.hidePassword : this.showPassword} src={iconEye} className="icon-eye" alt="show password" />
                 </div>
-                
               </div>
             </div>
           </div>

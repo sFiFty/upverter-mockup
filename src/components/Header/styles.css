@@ -9,7 +9,7 @@ header img {
   height: 64px;
 }
 
-header .buttons-container button {
+button {
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 14px;
@@ -35,11 +35,11 @@ header .buttons-container button.login:hover {
   background-color: #F2C94C;
 }
 
-header .buttons-container button.start-for-free {
+button.orange {
   background-color: #F2C94C;
 }
 
-header .buttons-container button.start-for-free:hover {
+button.orange:hover {
   background-color: #f2d74c;
 }
 

@@ -49,6 +49,7 @@
   height: 10px;
   top: 19px;
   right: 19px;
+  cursor: pointer;
 }
 
 .side-content .login-container .login-content .actions-container {

@@ -10,7 +10,7 @@ class Header extends Component {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="buttons-container">
           <button onClick={onShowModal} className="login">Login</button>
-          <button onClick={onShowModal} className="start-for-free">Start for Free</button>
+          <button onClick={onShowModal} className="orange">Start for Free</button>
         </div>
       </header>
     );
