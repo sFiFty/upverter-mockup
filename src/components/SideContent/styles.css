@@ -4,7 +4,19 @@
 }
 
 .side-content.login {
+  font-family: Gotham;
   background: #F8F8F8;
+}
+
+.side-content .sign-up {
+  height: 80px;
+  width: 100%;
+  background: #eeeeee;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #141416;
+  cursor: pointer;
 }
 
 .side-content .image-container {
@@ -22,7 +34,6 @@
 .side-content .login-container {
   position: relative;
   flex: 1;
-  font-family: Gotham;
 }
 
 .side-content .login-container .login-content .icon-man {

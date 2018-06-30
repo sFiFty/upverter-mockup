@@ -15,10 +15,8 @@ class SideContent extends Component {
   showPassword = () => this.setState({ isPasswordShown: true });
   hidePassword = () => this.setState({ isPasswordShown: false });
   render() {
-    //const { isModalShown } = this.props;
-    const { onHideModal } = this.props;
+    const { isModalShown, onHideModal } = this.props;
     const { isPasswordShown } = this.state;
-    const isModalShown = true;
     let sideClasses = 'side-content d-flex flex-column justify-content-center';
     if (isModalShown) sideClasses += ' login';
     return (
@@ -65,6 +63,10 @@ class SideContent extends Component {
               </div>
             </div>
           </div>
+        }
+        {
+          isModalShown &&
+          <div className="sign-up d-flex flex-column justify-content-center align-items-center">Sign Up for Free to Start Uploading</div>
         }
       </div>
     );
