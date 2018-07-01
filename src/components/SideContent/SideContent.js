@@ -56,7 +56,7 @@ class SideContent extends Component {
                   <input onChange={this.onSetPasword} type={isPasswordShown ? 'text': 'password'} placeholder="Password" name="password" id="password"/>
                   <img onClick={ isPasswordShown ? this.hidePassword : this.showPassword} src={iconEye} className="icon-eye" alt="show password" />
                 </div>
-                <button onClick={this.onSignIn} className="orange">Login</button>
+                <button onClick={this.onSignIn} className="active">Login</button>
               </div>
               <div className="remind-me">
                 Forgot your username or password? <span>Remind Me</span>

@@ -18,6 +18,7 @@
   text-align: center;
   color: #141416;
   cursor: pointer;
+  margin-top: auto;
 }
 
 .side-content .image-container {
@@ -167,6 +168,7 @@
 
   .side-content.login {
     position: absolute;
+    height: calc(100% - 80px);
   }
   .side-content.login .login-container .ico-close {
     top: 10px;

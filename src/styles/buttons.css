@@ -11,21 +11,21 @@ button {
   padding: 15px 24px; 
 }
 
-header .buttons-container button.login:hover {
-  background-color: #F2C94C;
-}
-
-button.orange {
-  background-color: #F2C94C;
-}
-
-button.orange:hover {
-  background-color: #f2d74c;
-}
-
-button.login {
+button.default {
   background-color: rgba(242, 201, 76, 0.04);
   border: 1px solid #F2C94C;
+}
+
+button.default:hover {
+  background-color: #F2C94C;
+}
+
+button.active {
+  background-color: #F2C94C;
+}
+
+button.active:hover {
+  background-color: #f2d74c;
 }
 
 @media (max-width: 850px) {

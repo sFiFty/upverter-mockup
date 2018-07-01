@@ -8,6 +8,9 @@ class Header extends Component {
     userEmail: null,
   }
   componentDidMount() {
+    /**
+     * Detecting if user was signed up
+     */
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
         this.setState({ userEmail: user.email });
@@ -30,11 +33,11 @@ class Header extends Component {
             userEmail ? 
             <div className="user-container">
               <span>{userEmail}</span>
-              <button onClick={this.onSignOut} className="login">Sign out</button>
+              <button onClick={this.onSignOut} className="default">Sign out</button>
             </div> :
             <div>
-              <button onClick={onShowModal} className="login">Login</button>
-              <button onClick={onShowModal} className="orange">Start for Free</button>
+              <button onClick={onShowModal} className="default">Login</button>
+              <button onClick={onShowModal} className="active">Start for Free</button>
             </div>
           }
         </div>
