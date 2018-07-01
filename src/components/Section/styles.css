@@ -7,6 +7,7 @@ section {
 @media (max-width: 850px) {
   section {
     flex-direction: column;
+    position: relative;
   }
 }
 

@@ -172,7 +172,7 @@
 
   .side-content.login {
     position: absolute;
-    height: calc(100% - 80px);
+    height: 100%;
   }
   .side-content.login .login-container .ico-close {
     top: 10px;
@@ -185,6 +185,7 @@
 
   .side-content.login .login-container .login-content {
     margin-top: 50px;
+    width: 90%;
   }
 
   .side-content .login-container .login-content .actions-container {

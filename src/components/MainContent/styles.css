@@ -101,4 +101,8 @@
     width: 100%;
     padding: 40px 20px 150px;
   }
+  
+  .main-content .text-content {
+    width: 100%;
+  }
 }
