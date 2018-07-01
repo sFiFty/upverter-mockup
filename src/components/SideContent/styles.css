@@ -38,6 +38,20 @@
   flex: 1;
 }
 
+.side-content .login-container .ico-close {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 48px;
+  right: 48px;
+  cursor: pointer;
+}
+
+.side-content .login-container .login-content {
+  width: 80%;
+  padding: 25px 0px;
+}
+
 .side-content .login-container .login-content .icon-man {
   width: 96px;
   height: 96px;
@@ -52,22 +66,9 @@
   padding-top: 24px;
 }
 
-.side-content .login-container .login-content .actions-container .input-password-container {
-  position: relative;
-}
-
-.side-content .login-container .login-content .actions-container .input-password-container .icon-eye {
-  position: absolute;
-  width: 14px;
-  height: 10px;
-  top: 19px;
-  right: 19px;
-  cursor: pointer;
-}
-
 .side-content .login-container .login-content .actions-container {
+  width: 100%;
   max-width: 425px;
-  width: auto;
   padding-top: 44px;
 }
 
@@ -81,6 +82,19 @@
   font-size: 14px;
   line-height: 16px;
   padding: 15px 24px; 
+}
+
+.side-content .login-container .login-content .actions-container .input-password-container {
+  position: relative;
+}
+
+.side-content .login-container .login-content .actions-container .input-password-container .icon-eye {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 19px;
+  right: 19px;
+  cursor: pointer;
 }
 
 .side-content .login-container .login-content .actions-container button {
@@ -109,7 +123,6 @@
 
 .side-content .login-container .login-content .social {
   margin-top: 24px;
-  padding-bottom: 40px;
 }
 
 .side-content .login-container .login-content .social .social-ico-container {
@@ -133,15 +146,6 @@
 
 .side-content .login-container .login-content .social .ico-github-container {
   background-color: #181717;
-}
-
-.side-content .login-container .ico-close {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  top: 48px;
-  right: 48px;
-  cursor: pointer;
 }
 
 @media (max-width: 850px) {
