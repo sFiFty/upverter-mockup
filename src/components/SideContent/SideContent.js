@@ -8,7 +8,6 @@ import iconEye from '../../images/icon-eye.svg';
 import iconFb from '../../images/icon-fb.svg';
 import iconTw from '../../images/icon-tw.svg';
 import iconGithub from '../../images/icon-github.svg';
-import { CLIENT_RENEG_LIMIT } from 'tls';
 
 class SideContent extends Component {
   state = {

@@ -3,7 +3,7 @@ header {
   height: 80px;
   padding: 0 48px;
 }
-
+  
 header img {
   width: 140.5px;
   height: 64px;
@@ -41,4 +41,3 @@ button.orange {
 button.orange:hover {
   background-color: #f2d74c;
 }
-
