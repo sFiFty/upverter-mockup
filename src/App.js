@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+
 import Header from './components/Header/Header.js';
 import Section from './components/Section/Section.js';
+import './styles/layout.css';
+import './styles/fonts.css';
+import './styles/buttons.css';
 
 class App extends Component {
   state = {

@@ -108,6 +108,7 @@
 
 .side-content .login-container .login-content .social {
   margin-top: 24px;
+  padding-bottom: 40px;
 }
 
 .side-content .login-container .login-content .social .social-ico-container {
@@ -164,14 +165,8 @@
     height: initial;
   }
 
-  button {
-    font-size: 12px;
-    padding: 18px 5px 10px;
-  }
   .side-content.login {
-    position: fixed;
-    top: 80px;
-    height: 100%;
+    position: absolute;
   }
   .side-content.login .login-container .ico-close {
     top: 10px;

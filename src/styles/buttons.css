@@ -1,0 +1,36 @@
+
+button {
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Gotham;
+  color: #141416;
+  line-height: normal;
+  cursor: pointer;
+  padding: 15px 24px; 
+}
+
+header .buttons-container button.login:hover {
+  background-color: #F2C94C;
+}
+
+button.orange {
+  background-color: #F2C94C;
+}
+
+button.orange:hover {
+  background-color: #f2d74c;
+}
+
+button.login {
+  background-color: rgba(242, 201, 76, 0.04);
+  border: 1px solid #F2C94C;
+}
+
+@media (max-width: 850px) {
+  button {
+    font-size: 12px;
+    padding: 8px 5px;
+  }
+}
