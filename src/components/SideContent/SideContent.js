@@ -17,7 +17,7 @@ class SideContent extends Component {
   render() {
     const { isModalShown, onHideModal } = this.props;
     const { isPasswordShown } = this.state;
-    let sideClasses = 'side-content d-flex flex-column justify-content-center';
+    let sideClasses = 'side-content d-flex flex-column';
     if (isModalShown) sideClasses += ' login';
     return (
       <div className={sideClasses}>

@@ -18,8 +18,7 @@ button {
   color: #141416;
   line-height: normal;
   cursor: pointer;
-  /* the reason for that is a weird padding in gotham font */
-  padding: 28px 18px 18px; 
+  padding: 15px 24px; 
 }
 
 header .buttons-container button:first-child {

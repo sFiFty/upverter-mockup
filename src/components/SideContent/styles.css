@@ -1,6 +1,7 @@
 .side-content {
   width: 40%;
   background: #222224;
+  justify-content: center;
 }
 
 .side-content.login {
@@ -70,7 +71,6 @@
 }
 
 .side-content .login-container .login-content .actions-container input {
-  height: 48px;
   background: #FFFFFF;
   border: 1px solid #E8E8E8;
   box-sizing: border-box;
@@ -79,7 +79,7 @@
   margin-top: 4px;
   font-size: 14px;
   line-height: 16px;
-  padding-left: 24px;
+  padding: 15px 24px; 
 }
 
 .side-content .login-container .login-content .actions-container button {
@@ -146,6 +146,7 @@
   .side-content {
     width: 100%;
     min-height: 500px;
+    justify-content: flex-start;
   }
 
   .side-content .image-container {

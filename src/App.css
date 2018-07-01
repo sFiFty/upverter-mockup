@@ -4,14 +4,12 @@
 
 @font-face {
   font-family: Futura;
-  src: url('./fonts/futura/futur.ttf') format('truetype');
+  src: url('./fonts/futura/Futura\ Heavy\ font.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Gotham;
-  src: url('./fonts/GothamBook/GothamBook.eot');
-  src: url('./fonts/GothamBook/GothamBook.ttf') format('truetype');
-  src: url('./fonts/GothamBook/GothamBook.woff') format('woff');
+  src: url('./fonts/GothamBookRegular/GothamBookRegular.otf');
 }
 
 @font-face {
