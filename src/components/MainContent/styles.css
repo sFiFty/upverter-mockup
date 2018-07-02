@@ -104,5 +104,6 @@
   
   .main-content .text-content {
     width: 100%;
+    max-width: 370px;
   }
 }

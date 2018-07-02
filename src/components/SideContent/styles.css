@@ -100,6 +100,7 @@
 .side-content .login-container .login-content .actions-container button {
   width: 100%;
   margin-top: 24px;
+  padding: 15px 24px;
 }
 
 .side-content .login-container .login-content .remind-me {
@@ -112,6 +113,11 @@
 
 .side-content .login-container .login-content .remind-me span {
   color: #F2C94C;
+}
+
+.side-content .login-container .login-content .remind-me span:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .side-content .login-container .login-content .or {

@@ -6,7 +6,6 @@ import iconPlus from '../../images/icon-plus.svg';
 import iconScroll from '../../images/button-scroll.svg';
 
 class MainContent extends Component {
-  
   render() {
     const { isModalShown } = this.props;
     const mainClasses = isModalShown ? 'text-content modal-shown' : 'text-content';
